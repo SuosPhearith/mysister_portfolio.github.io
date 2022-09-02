@@ -1,0 +1,37 @@
+#li-hover{
+    color: black;
+}
+#li-hover:hover{
+    background-color: rgb(224, 156, 37);
+}
+#completedProjects{
+    background-color: blueviolet;
+}
+.fa {
+    font-size: 20px;
+    color: rgb(4, 41, 41);
+  }
+.fa:hover{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+#image1 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    background-color: black
+  }
+#image1:hover{
+    opacity: 0.3;
+}
+.price1{
+    height: 430px;
+    transition: tranform .2s;
+}
+.price1:hover{
+    height: 440px;
+    transform: scale(1.07);
+}
